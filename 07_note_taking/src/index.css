@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Poppins";
+}
+
+html,
+body,
+#root {
+  width: 100%;
+  height: 100%;
+  background-color: #087ea4;
+}
+
+#root {
+  padding: 20px 0px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  align-items: center;
+  justify-content: flex-start;
+}
+form {
+  max-width: 300px;
+  width: 100%;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+h1 {
+  color: #087ea4;
+  text-align: center;
+}
+input,
+button {
+  padding: 10px;
+  border-radius: 8px;
+  border: none;
+}
+input {
+  padding: 8px;
+  border: 1px solid #087ea4;
+}
+textarea {
+  width: 100%;
+  height: 150px;
+  resize: none;
+}
+button {
+  background-color: #087ea4;
+  color: white;
+}
+
+.note-holder {
+  max-width: 800px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.note {
+  max-width: 150px;
+  width: 100%;
+  height: 200px;
+  background-color: white;
+  padding: 20px;
+  border-radius: 10px;
+  box-shadow: 0px 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+.note h2 {
+  text-transform: capitalize;
+  text-wrap: wrap;
+  color: #087ea4;
+}
+
+.note .content {
+  height: 85%;
+  width: 100%;
+}
+
+.note button {
+  width: 100%;
+  background-color: #a41808;
+}
